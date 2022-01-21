@@ -4,6 +4,7 @@
 **/
 export async function main(ns) {
     ns.tprint("\n'  ██   ██  █████   ██████ ██   ██     ███████  ██████ ██████  ██ ██████  ████████     ██    ██ ██████  \n'  ██   ██ ██   ██ ██      ██  ██      ██      ██      ██   ██ ██ ██   ██    ██        ██    ██      ██ \n'  ███████ ███████ ██      █████       ███████ ██      ██████  ██ ██████     ██        ██    ██  █████  \n'  ██   ██ ██   ██ ██      ██  ██           ██ ██      ██   ██ ██ ██         ██         ██  ██  ██      \n'  ██   ██ ██   ██  ██████ ██   ██     ███████  ██████ ██   ██ ██ ██         ██          ████   ███████ \n");
+    ns.tprint("https://github.com/Mezque/Bitburner-Scripts/tree/master/Scripts")
     var target = ns.args[0];
     ns.tprint("The target server is ",target);
     var moneyThresh = ns.getServerMaxMoney(target) * 0.50;
