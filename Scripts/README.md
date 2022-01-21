@@ -1,5 +1,7 @@
 ## Hackv2.js 
-based off the example hack script with extra logging and features. Place on desired target then run `run hackv2.js SERVERNAME` ex: `run hackv2.js n00dles` <br />
+based off the example hack script with extra logging and features. Place on desired target then run `run hackv2.js SERVERNAME MONEYREQUIREMENT (max 1)` ex: `run hackv2.js n00dles 0.75` <br />
+
+Money required is how much the number will be multiplyed by resulting in more or less money reuiqred to be on the server before the hack will take place, the max is 1 meaning the full max amont is required to be there going down as you multiply the number by lower amount such as 0.75 , 0.6 , 0.5 and so on. <br />
 
 ## OLD SCRIPTS 
 These ones are not as useful as the newer stuff but I thought they should be included as well, granted the older hack script will result in quicker money early on but does not maximise potential gains. No wait is required for growing or weakening a server as well (as it isn't done unless grow v1 is also running). Pick your poison, personally I would go with v2 as its more ideal if you intend on leaving the game running in the background as well like I do.<br />
