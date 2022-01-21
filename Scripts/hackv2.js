@@ -23,10 +23,10 @@ export async function main(ns) {
             ns.tprint("Weaken Server on " , (target));
         } else if (ns.getServerMoneyAvailable(target) < moneyThresh) {
             await ns.grow(target);
-            ns.tprint("Grow Server on " , (target));
+            ns.tprint("Grow Server on " , (target) , " Server needs ", ns.getServerMaxMoney(target)*ns.args[1] - ns.getServerMoneyAvailable(target) , " more money before first hack is possible");
         } else {
             await ns.hack(target);
-            ns.tprint("Hack Server ran on " , (target) , " Server needs ", ns.getServerMaxMoney(target)*ns.args[1] - ns.getServerMoneyAvailable(target) , " more money before hack is possible");
+            ns.tprint("Hack Server ran on " , (target) , " Server needs ", ns.getServerMaxMoney(target)*ns.args[1] - ns.getServerMoneyAvailable(target) , " more money before next hack is possible");
         }
     }
 }
