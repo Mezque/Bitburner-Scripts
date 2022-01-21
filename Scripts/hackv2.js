@@ -17,20 +17,16 @@ export async function main(ns) {
         ns.brutessh(target);
         ns.tprint("Brute SSH ran");
     }
-    if (ns.hasRootAccess(target) == false) {
-        ns.nuke(target);
-        ns.tprint("Nuke ran, root acess granted ;)");
-    }
     while (true) {
         if (ns.getServerSecurityLevel(target) > securityThresh) {
             await ns.weaken(target);
-            ns.tprint("Weaken Server ran!")
+            ns.tprint("Weaken Server on " , (target));
         } else if (ns.getServerMoneyAvailable(target) < moneyThresh) {
             await ns.grow(target);
-            ns.tprint("Grow Server ran!")
+            ns.tprint("Grow Server on " , (target));
         } else {
             await ns.hack(target);
-            ns.tprint("Hack Server ran!")
+            ns.tprint("Hack Server ran on " , (target));
         }
     }
 }
