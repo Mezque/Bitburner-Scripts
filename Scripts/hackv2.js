@@ -7,8 +7,8 @@ export async function main(ns) {
     ns.tprint("https://github.com/Mezque/Bitburner-Scripts/tree/master/Scripts")
     var target = ns.args[0];
     ns.tprint("The target server is ",target);
-    var moneyThresh = ns.getServerMaxMoney(target) * 0.50;
-    ns.tprint("Hack will take place at ", ns.getServerMaxMoney(target)*0.50 , " current money amount is " , ns.getServerMoneyAvailable(target) , " Server needs ", ns.getServerMaxMoney(target)*0.50 - ns.getServerMoneyAvailable(target) , " more money before hack is possible");
+    var moneyThresh = ns.getServerMaxMoney(target) * ns.args[1];
+    ns.tprint("Hack will take place at ", ns.getServerMaxMoney(target)*ns.args[1] , " current money amount is " , ns.getServerMoneyAvailable(target) , " Server needs ", ns.getServerMaxMoney(target)*ns.args[1] - ns.getServerMoneyAvailable(target) , " more money before hack is possible");
     var securityThresh = ns.getServerMinSecurityLevel(target) + 5;
     ns.tprint("and a secuirty thresh hold of ",securityThresh);
     var maxMoney = ns.getServerMaxMoney(target);
@@ -26,7 +26,7 @@ export async function main(ns) {
             ns.tprint("Grow Server on " , (target));
         } else {
             await ns.hack(target);
-            ns.tprint("Hack Server ran on " , (target));
+            ns.tprint("Hack Server ran on " , (target) , " Server needs ", ns.getServerMaxMoney(target)*ns.args[1] - ns.getServerMoneyAvailable(target) , " more money before hack is possible");
         }
     }
 }
