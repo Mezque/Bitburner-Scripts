@@ -1,5 +1,5 @@
 ## Hackv2.js 
-based off the example hack script with extra logging and features. Place on desired target then run `run hackv2.js SERVERNAME MONEYREQUIREMENT (max 1)` ex: `run hackv2.js n00dles 0.75` <br />
+based off the example hack script with extra logging and features. Place on desired target then run `run hackv2.js SERVERNAME MONEYREQUIREMENT (max 1) Logging on TRUE OR FALSE ` ex: `run hackv2.js n00dles 0.75 False` <br />
 
 Money required is how much the number will be multiplyed by resulting in more or less money reuiqred to be on the server before the hack will take place, the max is 1 meaning the full max amont is required to be there going down as you multiply the number by lower amount such as 0.75 , 0.6 , 0.5 and so on. <br />
 
