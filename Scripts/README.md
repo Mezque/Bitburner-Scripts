@@ -2,6 +2,7 @@
 based off the example hack script with extra logging and features. Place on desired target then run `run hackv2.js SERVERNAME MONEYREQUIREMENT (max 1) Logging on true OR false ` ex: `run hackv2.js n00dles 0.75 false` <br />
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/31026406/150703960-7ebf3f31-c6be-4849-a3b3-b7ff779a84a1.png">
 Money required is how much the number will be multiplyed by resulting in more or less money reuiqred to be on the server before the hack will take place, the max is 1 meaning the full max amont is required to be there going down as you multiply the number by lower amount such as 0.75 , 0.6 , 0.5 and so on. <br />
+Logging on or off (true or false) will enable or disable logging to the in game terminal of events taking place in the script, grow, hack or weaken. *This may get a bit spammy*.<br />
 
 ## checkmoney.js
 Checks the amount of money on a server, usage `Run Checkmoney.js ServerName`<br />
