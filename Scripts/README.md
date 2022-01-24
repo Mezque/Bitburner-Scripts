@@ -5,6 +5,10 @@ based off the example hack script with extra logging and features. Place on desi
 <br />
 Money required is how much the number will be multiplyed by resulting in more or less money reuiqred to be on the server before the hack will take place, the max is 1 meaning the full max amont is required to be there going down as you multiply the number by lower amount such as 0.75 , 0.6 , 0.5 and so on. <br />
 
+## checkmoney.js
+Checks the amount of money on a server, usage `Run Checkmoney.js ServerName`<br />
+<img width="725" alt="image" src="https://user-images.githubusercontent.com/31026406/150703825-b56d5fe2-6bd5-4d07-868c-69f7582e04b4.png">
+<br />
 ## OLD SCRIPTS 
 These ones are not as useful as the newer stuff but I thought they should be included as well, granted the older hack script will result in quicker money early on but does not maximise potential gains. No wait is required for growing or weakening a server as well (as it isn't done unless grow v1 is also running). Pick your poison, personally I would go with v2 as its more ideal if you intend on leaving the game running in the background as well like I do.<br />
 ## hackv1.js 
