@@ -1,5 +1,5 @@
 ## Hackv2.js 
-based off the example hack script with extra logging and features. Place on desired target then run `run hackv2.js SERVERNAME MONEYREQUIREMENT (max 1) Logging on TRUE OR FALSE ` ex: `run hackv2.js n00dles 0.75 False` <br />
+based off the example hack script with extra logging and features. Place on desired target then run `run hackv2.js SERVERNAME MONEYREQUIREMENT (max 1) Logging on true OR false ` ex: `run hackv2.js n00dles 0.75 false` <br />
 <br />
 <img width="359" alt="image" src="https://user-images.githubusercontent.com/31026406/150699168-a2f8c683-aafe-4857-8745-b0c357d5e4c1.png"> <br />
 <br />
